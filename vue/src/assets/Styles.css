@@ -1,0 +1,21 @@
+html {
+    font-family: 'Mukta', sans-serif;
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+*::-webkit-scrollbar {
+    height: 100%;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(207, 207, 207, 0.568);
+    border-radius:15px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:rgba(157, 125, 233, 0.582);    
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
+  }
