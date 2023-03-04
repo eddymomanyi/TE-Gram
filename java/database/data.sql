@@ -6,11 +6,17 @@ INSERT INTO users (username,password_hash,role) VALUES ('IGotThemFlyShoes','$2a$
 INSERT INTO users (username,password_hash,role) VALUES ('CeilingCantHoldMe','$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC','ROLE_USER');
 
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
-VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111135/sample.jpg', 3, 'Caption Uno', '2023-02-01 15:30:25-05');
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111135/sample.jpg', 3, 'Such pretty flowers. Just had to take a pic', '2023-02-01 15:30:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675813272/rh7sfblcmnhgzyjvsmcs.webp', 3, 'Woooo coachella was so much fun', '2023-02-01 15:45:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676058627/ro9ukurech9z74i8u3xo.jpg', 2, 'My first time at Holi. What a colorful event. It was fun getting messy!', '2023-02-03 15:30:25-05');
+INSERT INTO posts (username, photo_url, likes, caption, date_time)
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676057561/mg2pj0ebci3zvrxm3ll8.jpg', 2, 'Quick group workout sesh at Hyde Park', '2023-02-03 15:45:25-05');
+INSERT INTO posts (username, photo_url, likes, caption, date_time)
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676053464/rqtneejggditgjarbf7s.jpg', 2, 'My friend Joanie wanted a pic at the park after our workout', '2023-02-03 15:48:25-05');
+INSERT INTO posts (username, photo_url, likes, caption, date_time)
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676052072/luqqnzetxoyxqgqfaflu.jpg', 2, 'Checkout my haul after apple picking', '2023-02-04 15:48:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('IGotThemFlyShoes', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111162/cld-sample-5.jpg', 5, 'These are clean, right? I just bought em' , '2023-02-02 17:45:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
