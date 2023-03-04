@@ -39,15 +39,15 @@ INSERT INTO comments (post_id, commenter, comment)
 VALUES (3, 'CeilingCantHoldMe', 'I am just hating because I am jealous');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
-VALUES (1, 'fakeemail1@yahoo.com', 'Rick McRick', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111884/ulbgynnx380mxbesgact.jpg', 'First user on Momento. Cannot belive I got off the waitlist');
+VALUES (1, 'fakeemail1@yahoo.com', 'Rick McRick', 'https://i.imgur.com/ZqnpACC.jpg', 'First user on Momento. Cannot belive I got off the waitlist');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
-VALUES (2, 'fakeemail2@yahoo.com', 'Mayor Momento', 'https://i.imgur.com/yYli9R6.jpg', 'Admin of Momento | Creator of Things');
+VALUES (2, 'fakeemail2@yahoo.com', 'Mayor Momento', 'https://i.imgur.com/JWiPXH5.jpg', 'Admin of Momento | Creator of Things');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
 VALUES (3, 'imincharge@fakemail.org', 'Sarah Woo', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111162/cld-sample-5.jpg', 'Hello from Santa Monica. #beachvibes');
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
-VALUES (4, 'partyanimal@fakemail.org', 'Eric Vasquez', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676002446/1666564773359_nhwk02.jpg', 'Here for a good time. Send me your memes #loveMemes');
+VALUES (4, 'partyanimal@fakemail.org', 'Eric Vasquez', 'https://i.imgur.com/7bikc5q.jpg', 'Here for a good time. Send me your memes #loveMemes');
 
 
 COMMIT TRANSACTION;
