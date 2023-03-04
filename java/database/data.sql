@@ -6,15 +6,15 @@ INSERT INTO users (username,password_hash,role) VALUES ('IGotThemFlyShoes','$2a$
 INSERT INTO users (username,password_hash,role) VALUES ('CeilingCantHoldMe','$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC','ROLE_USER');
 
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
-VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111135/sample.jpg', 3, 'Such pretty flowers. Just had to take a pic', '2023-02-01 15:30:25-05');
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111135/sample.jpg', 5, 'Such pretty flowers. Just had to take a pic', '2023-02-01 15:30:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675813272/rh7sfblcmnhgzyjvsmcs.webp', 3, 'Woooo coachella was so much fun', '2023-02-01 15:45:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
-VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676058627/ro9ukurech9z74i8u3xo.jpg', 2, 'My first time at Holi. What a colorful event. It was fun getting messy!', '2023-02-03 15:30:25-05');
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676058627/ro9ukurech9z74i8u3xo.jpg', 4, 'My first time at Holi. What a colorful event. It was fun getting messy!', '2023-02-03 15:30:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676057561/mg2pj0ebci3zvrxm3ll8.jpg', 2, 'Quick group workout sesh at Hyde Park', '2023-02-03 15:45:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
-VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676053464/rqtneejggditgjarbf7s.jpg', 2, 'My friend Joanie wanted a pic at the park after our workout', '2023-02-03 15:48:25-05');
+VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676053464/rqtneejggditgjarbf7s.jpg', 3, 'My friend Joanie wanted a pic at the park after our workout', '2023-02-03 15:48:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
 VALUES ('user', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1676052072/luqqnzetxoyxqgqfaflu.jpg', 2, 'Checkout my haul after apple picking', '2023-02-04 15:48:25-05');
 INSERT INTO posts (username, photo_url, likes, caption, date_time)
@@ -47,7 +47,7 @@ INSERT INTO comments (post_id, commenter, comment)
 VALUES (3, 'CeilingCantHoldMe', 'I am just hating because I am jealous');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
-VALUES (1, 'fakeemail1@yahoo.com', 'Rick Kelly', 'https://i.imgur.com/ZqnpACC.jpg', 'First user on Momento. Cannot belive I got off the waitlist');
+VALUES (1, 'fakeemail1@yahoo.com', 'Rick Kelly', 'https://i.imgur.com/ZqnpACC.jpg', 'First user on Momento! Cannot believe I got off the waitlist');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
 VALUES (2, 'fakeemail2@yahoo.com', 'Mayor Momento', 'https://i.imgur.com/JWiPXH5.jpg', 'Admin of Momento | Creator of Things');
