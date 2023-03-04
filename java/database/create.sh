@@ -1,5 +1,6 @@
 #!/bin/bash
 export PGPASSWORD='postgres1'
+export PGPORT=15432
 BASEDIR=$(dirname $0)
 DATABASE=tegram_db
 psql -U postgres -f "$BASEDIR/dropdb.sql" &&

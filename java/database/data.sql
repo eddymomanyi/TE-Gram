@@ -42,7 +42,7 @@ INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
 VALUES (1, 'fakeemail1@yahoo.com', 'Rick McRick', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111884/ulbgynnx380mxbesgact.jpg', 'First user on Momento. Cannot belive I got off the waitlist');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
-VALUES (2, 'fakeemail2@yahoo.com', 'Mayor Momento', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111162/cld-sample-5.jpg', 'Admin of Momento | Creator of Things');
+VALUES (2, 'fakeemail2@yahoo.com', 'Mayor Momento', 'https://i.imgur.com/yYli9R6.jpg', 'Admin of Momento | Creator of Things');
 
 INSERT INTO profiles (user_id, email, name, profile_image, profile_bio)
 VALUES (3, 'imincharge@fakemail.org', 'Sarah Woo', 'https://res.cloudinary.com/depdfgnxo/image/upload/v1675111162/cld-sample-5.jpg', 'Hello from Santa Monica. #beachvibes');
