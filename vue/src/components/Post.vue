@@ -319,7 +319,6 @@ export default {
     //   this.listOfComments = response.data;
     // });
     apiService.getRatingsById(this.post.post_id).then((response) => {
-      console.log(response.data);
       this.ratingsForPost = response.data;
     });
     apiService
