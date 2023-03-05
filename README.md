@@ -9,22 +9,22 @@ Built using Java, PostgreSQL (to store user account information, photos, caption
 * Create an account to be a registered user.
 * Login/logout if already registered
 #### Registered users can:
-* Upload a picture and create a post with a caption
-* Interact with other posts
-  * Leave a "like"
-  * Comment
-  * Rate the post out of 5
-  * Add to their Favorites
-  * Edit the caption to their own post
-  * Delete their own post
-  * Click a picture to open up a modal window that shows the post with all the comments (Home page only shows last 2 comments of post)
+* Create a post by uploading a picture and adding a caption
+* Interact with posts by:
+  * Leaving a "like"/ unliking
+  * Commenting
+  * Rating the post out of 5
+  * Adding to their Favorites
+  * Editing the caption to their own post
+  * Deleting their own post
+  * Clicking the picture to open up a modal window that shows the post with all the comments (Home page only shows last 2 comments of post)
 * Sort the posts on the home page by time posted and rating
-* Search and view other users profiles
+* Search for and view other users profiles
 * Edit their profile information (name, bio, profile picture, email, password)
 * View their Favorite posts
 
 #### Anonymous users can:
-*View the home feed
+* View the home feed
 ## Screenshots
 
 Home page for anonymous user
