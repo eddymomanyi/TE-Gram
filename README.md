@@ -53,5 +53,6 @@ Editing profile information
 Favorites page
 ![favorites page](https://res.cloudinary.com/depdfgnxo/image/upload/v1677980493/Momento/momento_favs_ykxahn.png)
 
-
+## Fellow Contributors
+Sarah Woo, Chelsea Mauldin, and Vanessa Reed
 
